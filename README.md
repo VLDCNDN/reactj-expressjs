@@ -20,3 +20,11 @@
 2. generate a build directory in client
     - `cd client && npm run build`
 3. now try running the server only, `npm start`
+
+# Deploy Full-Stack in Heroku
+1. Set your environment variables in heroku
+2. Go to heroku dashboard, create new app.
+3. after creating go to Deploy and Choose GitHub
+    - connect your github account and search your repo
+    - make sure to **Enable Automatic Deploys**
+4. In Manual Deploy Section select branch to deploy and select **Deploy Branch**
